@@ -39,7 +39,8 @@ body {
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
-    padding-left: 32px;
+    padding-left: 30px;
+    border: none;
 }
 
 .search-box input::placeholder {
@@ -169,7 +170,7 @@ body {
     opacity: 0;
 }
 
-.fade-in {
+.fadeIn {
     animation: 0.5s fadeIn forwards;
     animation-delay: 0.5s;
 }
